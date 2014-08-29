@@ -1,0 +1,113 @@
+INFO >>> Login() === : logging home:  http://bbs.feng.com/member.php?mod=logging&action=login
+send: 'GET /member.php?mod=logging&action=login HTTP/1.1\r\nHost: bbs.feng.com\r\nAccept-Encoding: identity, deflate, compress, gzip\r\nAccept: */*\r\nUser-Agent: python-requests/0.8.2\r\n\r\n'
+reply: 'HTTP/1.1 302 Moved Temporarily\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:45 GMT
+header: Server: nginx/1.2
+header: Content-Type: text/html; charset=utf-8
+header: Transfer-Encoding: chunked
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Set-Cookie: xIka_2132_saltkey=TYVV7yUS; expires=Sun, 28-Sep-2014 05:08:45 GMT; Max-Age=2592000; path=/; httponly
+header: Set-Cookie: xIka_2132_lastvisit=1409285325; expires=Sun, 28-Sep-2014 05:08:45 GMT; Max-Age=2592000; path=/
+header: Expires: -1
+header: Cache-Control: no-store, private, post-check=0, pre-check=0, max-age=0
+header: Pragma: no-cache
+header: Set-Cookie: xIka_2132_lastact=1409288925%09member.php%09logging; expires=Sat, 30-Aug-2014 05:08:45 GMT; Max-Age=86400; path=/
+header: Location: http://passport.feng.com/?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010
+header: Set-Cookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:10:45 GMT;path=/;httponly
+header: X-Via: 1.1 lsh57:2 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+send: 'GET /?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010 HTTP/1.1\r\nHost: passport.feng.com\r\nCookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;  xIka_2132_lastact=1409288925%09member.php%09logging;  xIka_2132_lastvisit=1409285325;  xIka_2132_saltkey=TYVV7yUS\r\nAccept-Encoding: identity, deflate, compress, gzip\r\nAccept: */*\r\nUser-Agent: python-requests/0.8.2\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:45 GMT
+header: Server: nginx/1.2
+header: Content-Type: text/html;charset=utf-8
+header: Transfer-Encoding: chunked
+header: X-Powered-By: PHP/5.5.1
+header: Set-Cookie: PHPSESSID=4i4gv7oledng3oj63jrm1q7o55; path=/
+header: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Pragma: no-cache
+header: Content-Encoding: gzip
+header: Set-Cookie: NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:18:45 GMT;path=/;httponly
+header: X-Via: 1.1 lsh53:4 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+INFO >>> Login() === : Get redirect:  http://passport.feng.com/?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010
+send: 'GET /?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010 HTTP/1.1\r\nConnection: keep-alive\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: identity, deflate, compress, gzip\r\nCookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;  NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;  PHPSESSID=4i4gv7oledng3oj63jrm1q7o55;  xIka_2132_lastact=1409288925%09member.php%09logging;  xIka_2132_lastvisit=1409285325;  xIka_2132_saltkey=TYVV7yUS\r\nReferer: http://bbs.feng.com/\r\nHost: passport.feng.com\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nUser-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:45 GMT
+header: Server: nginx/1.2
+header: Content-Type: text/html;charset=utf-8
+header: Transfer-Encoding: chunked
+header: X-Powered-By: PHP/5.5.1
+header: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Pragma: no-cache
+header: Content-Encoding: gzip
+header: Set-Cookie: NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:18:45 GMT;path=/;httponly
+header: X-Via: 1.1 lsh53:4 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+INFO >>> Login() === : Get validate code:  http://passport.feng.com/index.php?r=site/ValidateCode&t=1409288925&_=281857795
+send: 'GET /index.php?r=site/ValidateCode&t=1409288925&_=281857795 HTTP/1.1\r\nConnection: keep-alive\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: identity, deflate, compress, gzip\r\nCookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;  NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;  PHPSESSID=4i4gv7oledng3oj63jrm1q7o55;  xIka_2132_lastact=1409288925%09member.php%09logging;  xIka_2132_lastvisit=1409285325;  xIka_2132_saltkey=TYVV7yUS\r\nReferer: http://passport.feng.com/?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010\r\nHost: passport.feng.com\r\nAccept: image/png,image/*;q=0.8,*/*;q=0.5\r\nUser-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:46 GMT
+header: Server: nginx/1.2
+header: Content-Type: image/jpeg
+header: Transfer-Encoding: chunked
+header: X-Powered-By: PHP/5.5.1
+header: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Pragma: no-cache
+header: Set-Cookie: NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:18:46 GMT;path=/;httponly
+header: X-Via: 1.1 lsh57:2 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+INFO >>> Login() === :请到conf/checkcode.jpeg,打开验证码图片
+INFO >>> Login() === :1 CheckUserStatus:  http://passport.feng.com/index.php?r=user/CheckUserStatus&username=nexusfeng&password=&_=1409288976501
+send: 'GET /index.php?r=user/CheckUserStatus&username=nexusfeng&password=&_=1409288976501 HTTP/1.1\r\nConnection: keep-alive\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: identity, deflate, compress, gzip\r\nCookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;  NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;  PHPSESSID=4i4gv7oledng3oj63jrm1q7o55;  xIka_2132_lastact=1409288925%09member.php%09logging;  xIka_2132_lastvisit=1409285325;  xIka_2132_saltkey=TYVV7yUS\r\nReferer: http://passport.feng.com/?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010\r\nX-Requested-With: XMLHttpRequest\r\nHost: passport.feng.com\r\nAccept: application/json, text/javascript, */*; q=0.01\r\nUser-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:46 GMT
+header: Server: nginx/1.2
+header: Content-Type: text/html;charset=utf-8
+header: Transfer-Encoding: chunked
+header: X-Powered-By: PHP/5.5.1
+header: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Pragma: no-cache
+header: Content-Encoding: gzip
+header: Set-Cookie: NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:18:46 GMT;path=/;httponly
+header: X-Via: 1.1 lsh57:2 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+DBG  >>> Login() === :1 CheckUserStatus Content: {"status":"success","info":"\u8bf7\u6c42\u6210\u529f"}请求成功
+INFO >>> Login() === :2 CheckUserStatus:  http://passport.feng.com/index.php?r=user/CheckUserStatus&username=nexusfeng&password=123456feng&_=1409288976773
+send: 'GET /index.php?r=user/CheckUserStatus&username=nexusfeng&password=123456feng&_=1409288976773 HTTP/1.1\r\nConnection: keep-alive\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: identity, deflate, compress, gzip\r\nCookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;  NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;  PHPSESSID=4i4gv7oledng3oj63jrm1q7o55;  username=nexusfeng;  xIka_2132_lastact=1409288925%09member.php%09logging;  xIka_2132_lastvisit=1409285325;  xIka_2132_saltkey=TYVV7yUS\r\nReferer: http://passport.feng.com/?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010\r\nX-Requested-With: XMLHttpRequest\r\nHost: passport.feng.com\r\nAccept: application/json, text/javascript, */*; q=0.01\r\nUser-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0\r\n\r\n'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:46 GMT
+header: Server: nginx/1.2
+header: Content-Type: text/html;charset=utf-8
+header: Transfer-Encoding: chunked
+header: X-Powered-By: PHP/5.5.1
+header: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Pragma: no-cache
+header: Content-Encoding: gzip
+header: Set-Cookie: NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:18:46 GMT;path=/;httponly
+header: X-Via: 1.1 lsh57:2 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+DBG  >>> Login() === :2 CheckUserStatus Content: {"status":"success","info":"\u8bf7\u6c42\u6210\u529f"}请求成功
+INFO >>> Login() === :POST        :  http://passport.feng.com/index.php?r=user/LoginProcess
+DBG  >>> Login() === :postdata    :  {'wekey_token=': '', 'check_code=': '1234', 'username=': 'nexusfeng', 'password=': '123456feng'}
+send: 'POST /index.php?r=user/LoginProcess HTTP/1.1\r\nContent-Length: 79\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nAccept: application/json, text/javascript, */*; q=0.01\r\nUser-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0\r\nHost: passport.feng.com\r\nX-Requested-With: XMLHttpRequest\r\nCookie: NSC_cct.xfjqipof.dpn=ffffffffc3a0da7a45525d5f4f58455e445a4a423660;  NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;  PHPSESSID=4i4gv7oledng3oj63jrm1q7o55;  username=nexusfeng;  xIka_2132_lastact=1409288925%09member.php%09logging;  xIka_2132_lastvisit=1409285325;  xIka_2132_saltkey=TYVV7yUS\r\nReferer: http://passport.feng.com/?r=user/login&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=bc1ce0c20dad09f5855266d8a0530010\r\nContent-Type: application/x-www-form-urlencoded; charset=UTF-8\r\n\r\nusername%3D=nexusfeng&check_code%3D=1234&wekey_token%3D=&password%3D=123456feng'
+reply: 'HTTP/1.1 200 OK\r\n'
+header: Date: Fri, 29 Aug 2014 05:08:47 GMT
+header: Server: nginx/1.2
+header: Content-Type: text/html;charset=utf-8
+header: Transfer-Encoding: chunked
+header: X-Powered-By: PHP/5.5.1
+header: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+header: Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+header: Pragma: no-cache
+header: Content-Encoding: gzip
+header: Set-Cookie: NSC_qbttqpsu=ffffffffc3a0da7e45525d5f4f58455e445a4a423660;expires=Fri, 29-Aug-2014 05:18:47 GMT;path=/;httponly
+header: X-Via: 1.1 lsh57:2 (Cdn Cache Server V2.0)
+header: Connection: keep-alive
+ERROR>>> Can not get http://bbs.feng.com/api/uc.php?time=xxx&code=xxx&_=xxx
+{"status":"need_checkcode","info":{"item":"password","info":"\u8d26\u53f7\u4fe1\u606f\u4e0d\u80fd\u4e3a\u7a7a"}}账号信息不能为空
