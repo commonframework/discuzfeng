@@ -1,0 +1,15 @@
+
+1.  GET  http://bbs.feng.com/
+2.  GET  http://bbs.feng.com/member.php?mod=logging&action=login
+3.  GET  http://passport.feng.com/?r=user/login&sso%5Bjump%5D=http%3A%2F%2Fbbs.feng.com%2F&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=7a928982dd59b02a3024858bd61ccf22
+4.  GET  http://passport.feng.com/index.php?r=site/ValidateCode&t=1408684950&_=281737000
+4.1     gd-jpeg v1.0 (using IJG JPEG v62), quality = 80
+4.1 POST http://passport.feng.com/index.php?r=pwd/validateCode
+5   GET  http://passport.feng.com/index.php?r=user/CheckUserStatus&username=nexusfeng&password=123456feng&_=1408713275400
+5.1     {"status":"success","info":"\u8bf7\u6c42\u6210\u529f"} ==> 请求成功
+6.  POST http://passport.feng.com/index.php?r=user/LoginProcess
+6.1     {"status":"advised_set_saft_info","info":[]} 
+7.  GET  http://bbs.feng.com/api/uc.php?time=1408684968&code=c787yw4hLu0t5T2zDIwQJSGjTLLoKQQ2B0hieIlfu2XrFwmXB8wahIMJQ%2BfSn7m9X08uzlHManKQdXvN0YhlwsnhHtuuEuvDGLCcJZlB3Na32i0s5GP52NnOT1FDVZENt5mu9wUcRdHb8uUgRGlu5FeXNMcpwkjuoKNcrgZ%2FprmHYIjmLONYccdUTk49AE%2FE%2BVBhEgUQyHZwXbihdL44ELN68ZHzi3PK9wH54%2BX57HvZ5oitcadObI3CYiBfeWhc9sQ3427LvHZ7iBrLW%2FNpy9HfHBRNeBAPjzlYBkASQhXBv1ZBAJtyOaET%2FrFNxn55%2FVDfbllhJsZa1T8bjtjQoacX6JA8R8FOehhAgKA2d4zdfafe5fSqtka1Hw5cy8nGfbnAE4lQt2WR5XDSwu0E7oouIHAwZ6UYOke2CEq0jcgsBNMAHvhp%2F9yPAloo23sSUMfbU9TyZz4MFzuCK0Y&_=1408685015854
+8.  GET  http://passport.feng.com/index.php?r=site/index
+
+
