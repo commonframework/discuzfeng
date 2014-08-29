@@ -1,0 +1,1681 @@
+==================
+INFO >>> Login() === : Get redirect:  http://passport.feng.com/?r=user/login&sso%5Bjump%5D=http%3A%2F%2Fbbs.feng.com%2F&sso%5Bname%5D=%E5%A8%81%E9%94%8B%E8%AE%BA%E5%9D%9B&sso%5Bapps%5D=2&sso%5Bverify%5D=7a928982dd59b02a3024858bd61ccf22
+DBG >>>  <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="威锋会员中心，一号轻松玩转iPhone社区，畅游威锋网、威锋论坛、威锋游戏、威锋商城，体验苹果与周边的无限精彩。" />
+<meta name="keywords" content="威锋网登录,登录威锋网,威锋网登陆,威锋会员中心,注册威锋网账号,威锋账号激活，威锋特别会员组，威锋邮箱激活" />
+<link rel="Shortcut icon" href="http://passport.feng.com/favicon.ico">   
+<link rel="Bookmark" href="http://passport.feng.com/favicon.ico">
+<title>登录 - 威锋会员中心</title>
+<link rel="stylesheet" type="text/css" href="common_assets/style/sso_common.css" />
+<link type="text/css" href="style/base.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="style/login.css" />
+
+
+
+</head>
+<body>
+    <!-- Global Topbar -->
+    <div class="global_topbar_wrap">
+        <div id="global_topbar" class="global_topbar">
+            <div class="wrap inner">
+                <div class="services" id="global_topbar_services">
+                    <ul>
+                        <li class="current"><a href="http://www.feng.com" target="_blank"><i class="weiphone"></i>威锋网</a></li>
+                        <li><a href="http://g.feng.com/" target="_blank"><i class="wegame"></i>威锋游戏</a></li>
+                        <li><a href="http://www.fengbuy.com" target="_blank"><i class="fengbuy"></i>威锋商城</a></li>
+                        <li><a href="http://www.wper.com" target="_blank"><i class="wper"></i>威智网</a></li>
+                        <li><a href="http://www.weand.com" target="_blank"><i class="weand"></i>安锋网</a></li>
+                        <li><a href="http://g.feng.com/" target="_blank"><i class="wegame"></i>威锋游戏</a></li>
+                    </ul>
+                    <a href="javascript:;" class="expand"><span>展开</span></a>
+                </div>
+                <div class="links" id="globar_topbar_links">
+                    <ul>
+                        <li><a href="http://www.feng.com/">首页</a></li>
+                        <li><a href="http://tech.feng.com/" target="_blank">锋科技</a></li>
+                        <li><a href="http://game.feng.com/" target="_blank">游戏</a></li>
+                        <li><a href="http://news.feng.com/" target="_blank">新闻</a></li>
+                        <li><a href="http://lab.feng.com/" target="_blank">评测</a></li>
+                        <li><a href="http://bbs.feng.com/" target="_blank">论坛</a></li>
+                        <li><a href="http://apt.feng.com/" target="_blank">威锋源</a></li>
+                        <li><a href="http://g.feng.com/" target="_blank">威锋游戏</a></li>
+                        <li><a href="http://www.fengbuy.com" target="_blank">威锋商城</a></li>
+                        <!-- <li><a href="http://live.feng.com/" target="_blank">直播<span class="tips" style="display:none"><em>Living</em></span></a></li> -->
+                    </ul>
+                    <div class="focus"><em></em></div>
+                </div>
+                <!-- <div class="link_target"><a href="javascript:;" class="new" title="新窗口打开链接：是"><span>切换新窗口打开链接</span></a></div> -->
+                <div class="user_menu" id="global_user_menu" style="display:none">
+                    <ul>
+                        <li><a href="#">注册</a></li>
+                        <li class="face"><a href="#"><img src="images/face.gif" height="24" width="24" alt="Username" /></a></li>
+                        <li><a href="#">Username</a></li>
+                        <li><a href="#" title="消息"><i class="message"></i><span class="label">消息</span><span class="num"><em>8</em></span></a></li>
+                        <li><a href="#" title="设置"><i class="setting"></i><span class="label">设置</span></a></li>
+                        <li><a href="#" title="退出"><i class="logout"></i><span class="label">注销</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <!-- Container -->
+    <div id="container" class="container login_container">
+        <div id="content" class="content login_content">
+            <div class="title">
+                <a href="./" class="logo"><img src="images/logo.png" height="80" width="80" alt="威锋网" /></a>
+                <h2>Hi,欢迎来到威锋网.</h2>
+            </div>
+            <div class="inner">
+                <h1>用户登录</h1>
+                <div class="qr_code_con">
+                    <div class="wea_d_390">
+                        <a href="https://itunes.apple.com/cn/app/wei-feng-wang-lun-tan-ke-hu-duan/id429642492?mt=8" target="_blank"><img src="images/wea_d_390.png" height="276" width="390" alt="" /></a>
+                    </div>
+                    <!--二维码登陆-->
+                    <div id="qr_code">
+                        <div class="logion_panel">
+                            <div class="login_computer"></div>
+                            <div class="pic">
+                                <img src="images/qr_170_170.jpg" height="170" width="170" alt="扫描二维码登录" id="qr_code_img">
+                            </div>
+                            <div class="note">用<a target="_blank" href="https://itunes.apple.com/cn/app/wei-feng-mi-bao/id448274644?mt=8">威锋密保</a>或<a target="_blank" href="https://itunes.apple.com/cn/app/wei-feng-wang-lun-tan-ke-hu-duan/id429642492?mt=8">威锋客户端</a>扫描二维码登录</div>
+                            <!--失效的情况-->
+                            <div class="failureBox hide">
+                                <div class="whiteMask"></div>
+                                <div class="hint hide">
+                                    <p class="backtext">失效了</p>
+                                    <p><span class="refresh_btn">刷新</span></p>
+                                </div>
+                                <p class="loading"><img src="images/loading_m.gif" height="28" width="28" alt="" /></p>
+                            </div>
+                        </div>
+                        <div class="agreement"><span class="checkbox nocheck has_value"><input type="checkbox" name="rememberMe" value="1"></span><label>保存登录状态 (公用电脑不建议使用)</label></div>
+                    </div>
+                    <!--输入框登陆-->
+                    <div id="computer_code">
+                        <div class="computer_panel">
+                            <div class="qr_code_icon"></div>
+                            <div class="login_form">
+                                <form action="/index.php?r=user/LoginProcess" method="post">
+                                    <ul>
+                                        <li><span class="txt"><i class="user"></i><label for="username">用户名/邮箱</label><input type="text" name="username" id="username" class="userNameInput" autofocus /></span></li>
+                                        <li><span class="txt"><i class="pwd"></i><input type="password" name="password" id="password"  oncopy="return false" onpaste="return false"/></span></li>
+                                        <li id="wekey_panel" class="hide"><span class="txt"><i class="wekey"></i><label for="wekey_token">密保动态密码</label><input type="text" name="wekey_token" id="wekey_token" maxlength="6" /></span></li>
+                                        <li id="checkcode_panel" class="hide"><span class="txt txt_code"><i class="code"></i><label for="wekey_token">验证码</label><input type="text" name="check_code" id="check_code" maxlength="6" /><span class="error_input_icon hide" id="check_code_ico"></span></span><span class="code_img"><img src="images/place.png" longdesc="/index.php?r=site/ValidateCode&t=1408767231" height="46" width="124" alt="验证码" title="点击更换验证码" id="checkcode_img"/></span></li>
+                                        <li><div class="agreement"><span class="checkbox nocheck has_value"><input type="checkbox" name="rememberMe" value="1"></span><label>保存登录状态 (公用电脑不建议使用)</label></div></li>
+                                        <li class="btns"><button class="btn ok_btn" type="submit"><span>登录<i></i></span></button></li>
+                                    </ul>
+                                </form>
+                                <div class="ext_links">
+                                    <a href="/index.php?r=pwd/forgetPassword">忘记密码？</a>
+                                    <a href="/index.php?r=user/register">注册威锋账号</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer -->
+<div class="footer">
+    <div class="copyright"><p>Copyright 2007-2014  &copy; Joyslink Inc. All rights reserved 保留所有权利</p></div>
+</div>  </div>
+
+
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="common_assets/js/sso_login.js"></script>
+<script type="text/javascript" >
+function ds_confirm(content,yesText,noText,onyes,onno,onhide){ds.dialog({id : 'ds_dialog_confirm',fixed : true,left : '50%',top : '40%',title : '消息确认',content : content,onyes : onyes ,onhide : onhide,onno : onno,yesText : yesText,noText : noText});}
+function showBtnLoading(){$('.commonBtn').parent().addClass('loading_mask');}
+function hideBtnLoading(){$('.commonBtn').parent().removeClass('loading_mask');}
+function doJump(){
+    $.ajax({
+        type:'post',
+        url: "/index.php?r=user/GetJumpUrl",
+        data:{},
+        dataType:"json",
+        cache: false,
+        async: true,
+        success: function(data){
+            if(typeof data.status == 'string' && data.status == 'success'){
+                $("#syn_div").html(data.info.syn_str);
+                setTimeout(function(){
+                    if(data.info.link==location.href){
+                        location.href = './';;
+                    }else{
+                        location.href = data.info.link;
+                    }
+                }, data.info.wait);
+            }else{
+            }
+        },
+        error:function(){
+            alert("服务器繁忙，请稍候！");
+        }
+    });
+}
+jQuery.easing.easeOutBack = function(x, t, b, c, d, s){ if (s == undefined) s = 1.70158; return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;};
+</script>
+
+
+    <script type="text/javascript">
+        //保存登陆状态
+        jQuery(function($){
+            $('.agreement').delegate('span.nocheck', 'click', function(event) {
+                event.preventDefault();
+                var obj = $('.agreement').find('span.nocheck');
+                if($(this).hasClass('check')){
+                    //$(this).removeClass('check');
+                    //$(this).find('input[type=checkbox]').attr("checked",false);
+                    obj.removeClass('check');
+                    obj.find('input[type=checkbox]').attr("checked",false);
+                }else{
+                    //$(this).addClass('check');
+                    //$(this).find('input[type=checkbox]').attr("checked",true);
+                    obj.addClass('check');
+                    obj.find('input[type=checkbox]').attr("checked",true);
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript">
+    var appId = '2';
+    var loginCheckUserStatusUrl = '/index.php?r=user/CheckUserStatus';
+    var checkcodeImgUrl = '/index.php?r=site/ValidateCode&t=1408767231';
+    var qrLoginCheckUrl = 'http://passport.feng.com/index.php?r=user/QrInfo';
+    var qrcodeImgUrl = 'http://passport.feng.com/index.php?r=user/QrUrl';
+    var qrId = '53f814ffd00e0';
+    var tokenSaveTime = '299';
+    
+    var wekeyPanel = $('#wekey_panel'),
+    codePanel = $('#checkcode_panel'),
+    imgElem = $('#checkcode_img');
+    
+    //Login Form
+    jQuery(function($){
+        var form = $('.login_form form').eq(0).baseFormHandle();
+        
+        //验证码
+        var codeImg = form.find('.code_img img');
+        function toggleCodeImg(){
+            var 
+            src = codeImg.attr('longDesc'),
+            postfix = src.indexOf('?') < 0 ? '?_=' : '&_=';
+            codeImg.attr('src', src + postfix + (+new Date/5000).toFixed());
+            if($('#check_code').val()!=""){
+                $("#check_code_ico").removeClass('right_input_icon').addClass('error_input_icon').show();
+            }
+        }
+        if(codeImg.length){
+            codeImg.bind('click', toggleCodeImg);
+            toggleCodeImg();
+        }
+        
+        
+        function toggleToken(type){
+            wekeyPanel.addClass('hide');
+            codePanel.addClass('hide');
+            if(type === 'need_token'){
+                wekeyPanel.removeClass('hide');
+            }
+            else if(type === 'need_checkcode'){
+                codePanel.removeClass('hide');
+                toggleCodeImg();
+            }
+        }
+        
+        //Check Login
+        var checkXhr, username = '', userInp = $("#username"),userPwdInp = $("#password");
+        if(ds.getCookie('username')){
+            userInp.value = ds.getCookie('username');
+        }
+        function checkLogin(){
+            checkXhr && checkXhr.abort();
+            checkXhr =  $.ajax({
+                type: 'get',
+                cache: false,
+                dataType: 'json',
+                url: loginCheckUserStatusUrl,
+                data: {username:username,password:userPwdInp.val()},
+                success: function(data){
+                    var status = data ? data.status : null;
+                    if(status && data.info){
+                        ds.setCookie('username', username, 30);
+                        toggleToken(status);
+                    }
+                }
+            });
+        }
+        userInp.bind('blur', function(){
+            if(this.value !== '' && username != this.value){
+                username = this.value;
+                checkLogin();
+            }
+        });
+        userPwdInp.bind('blur', function(){
+            if(this.value !== ''){
+                checkLogin();
+            }
+        });
+        
+
+        form.bind('submit', function(e){
+            e.preventDefault();
+            $.hideAllErrorTips();
+            
+            var hasErr = false, errField,data={};
+            $('.txt input').each(function(){
+                if(this.value == '' && this.offsetWidth > 0){
+                    errField = $(this);
+                    hasErr = true;
+                    return false;
+                }
+                data[this.name] = this.value;
+            });
+            
+            if(hasErr){
+                errField.showErrorTips(errField.parent().find('label').text() + ' 不能为空');
+            }
+            else{
+                form.showFormLoading();
+                $.ajax({
+                    type:'post',
+                    url: form.attr("action"),
+                    data:form.serialize(),
+                    dataType:"json",
+                    cache: false,
+                    async: true,
+                    success: function(data){
+                        
+                        if(typeof data.status == 'string' && data.status == 'success'){
+                            $("#syn_div").html(data.info.syn_str);
+                            setTimeout(function(){
+                                location.href = data.info.link;
+                            }, data.info.wait);
+                        
+                        }else if(typeof data.status == 'string' && (data.status == 'login_ip_anomaly' || data.status == 'advised_alter_pwd')){
+                            var content = data.info.tip_info;
+                            var yesText = "立即修改密码";
+                            var url = data.info.alterPwdUrl;
+                            var noText='暂不处理';
+                            var onyes = function(){
+                                location.href = url; 
+                                return false;
+                            }
+                            var onno=onhide = function(){
+                                $("#syn_div").html(data.info.syn_str);
+                                setTimeout(function(){
+                                    location.href = data.info.link;
+                                }, data.info.wait);
+                            }
+                            ds_confirm(content,yesText,noText,onyes,onno,onhide);
+                        }else if(typeof data.status == 'string' && data.status == 'advised_active_email'){
+                            form.showFormLoading();
+                            var url = data.info.emailActiveUrl;
+                            location.href = url; 
+                        }else if(typeof data.status == 'string' && data.status == 'must_alter_pwd'){
+                            var content = data.info.tip_info;
+                            var yesText = "立即修改密码";
+                            var url = data.info.alterPwdUrl;
+                            var noText='';
+                            var onyes=onhide = function(){
+                                location.href = url; 
+                                return false;
+                            }
+                            var onno = false;
+                            ds_confirm(content,yesText,noText,onyes,onno,onhide);
+                        }else if(typeof data.status == 'string' && data.status == 'advised_set_saft_info'){
+                            displaySecurity_1_tmpl();
+                        }else{
+                            form.hideFormLoading();
+                            var status = data ? data.status : null;
+                            toggleToken(status);
+                            var errItems = data.info;
+                            errField = $("#"+errItems.item);
+                            errField.showErrorTips(errItems.info);
+                        }
+                    },
+                    error:function(){
+                        form.hideFormLoading();
+                        alert("服务器繁忙，请稍候！");
+                    }
+                 });
+                
+            }
+        });
+    });
+
+    //globar_topbar
+    jQuery(function($){
+        var 
+        linkTimer,
+        linkPanel = $('#globar_topbar_links'),
+        linkFocusStyle = linkPanel.find('.focus').prop('style');
+        if(linkFocusStyle){
+            linkPanel.delegate('li a', 'mouseenter', function(){
+                var self = $(this);
+                clearTimeout(linkTimer);
+                
+                linkFocusStyle.left = self.position().left + 'px';
+                linkFocusStyle.width = self.innerWidth() + 'px';
+            })
+            .bind('mouseleave', function(){
+                clearTimeout(linkTimer);
+                linkTimer = setTimeout(function(){
+                    linkFocusStyle.left = '';
+                }, 240);
+            });
+        }
+    });
+    
+    jQuery(function($){
+        var keepRunning = true;
+        //登陆方式的转换
+        $('.login_computer').click(function(){
+            $(this).parents('#qr_code').stop().animate({'right':200,'opacity':0,'zIndex':-1},400);
+            $('#computer_code').stop().animate({'right':0,'opacity':1,'zIndex':1},400);
+            keepRunning = false;
+        });
+        $('.qr_code_icon').click(function(){
+            $(this).parents('#computer_code').stop().animate({'right':-325,'opacity':0,'zIndex':-1},400);
+            $('#qr_code').stop().animate({'right':0,'opacity':1,'zIndex':1},400);
+            keepRunning = true;
+            toogleQR();
+            loopCheckQRLogin();
+            var failureBox = $(".failureBox");
+            failureBox.addClass('hide');
+        });
+        
+        $('.refresh_btn').click(function(){
+            var failureBox = $(".failureBox");
+            failureBox.find('.loading').removeClass('hide');
+            failureBox.find('.hint').addClass('hide');
+            toogleQR();
+            loopCheckQRLogin();
+            failureBox.addClass('hide');
+        });
+        
+        
+        var form = $('.login_form form').eq(0).baseFormHandle();
+        //QR Code
+        var qrImgElem = $('#qr_code_img');
+        var qrScript, qrTimer, qrLoopStamp, qrCheckTimeout = 20000, qrCheckMinDelay = 2000;
+        
+        function toogleQR(){
+            qrImgElem.attr("src", qrcodeImgUrl+'&qrId='+qrId+'&_t='+new Date().getTime());
+            //console.log(qrcodeImgUrl+'&qrId='+qrId);
+            //setTimeout(toogleQR,tokenSaveTime*1000); 
+        }
+        function CheckQRLoginComplete(data){
+            var status = data ? data.status : null;
+            //console.log('call back ',data);
+            if (data.status=='success') {
+                var failureBox = $(".failureBox");
+                failureBox.removeClass('hide');
+                failureBox.find('.hint').addClass('hide'); 
+                failureBox.find('.loading').removeClass('hide');
+                //登录成功
+                $("#syn_div").html(data.info.syn_str);
+                setTimeout(function(){
+                    location.href = data.info.link;
+                }, data.info.wait);
+            }else if(typeof data.status == 'string' && (data.status == 'login_ip_anomaly' || data.status == 'advised_alter_pwd')){
+                var failureBox = $(".failureBox");
+                failureBox.removeClass('hide');
+                failureBox.find('.hint').addClass('hide'); 
+                failureBox.find('.loading').removeClass('hide');
+                
+                var content = data.info.tip_info;
+                var yesText = "立即修改密码";
+                var url = data.info.alterPwdUrl;
+                var noText='暂不处理';
+                var onyes = function(){
+                    location.href = url; 
+                    return false;
+                }
+                var onno=onhide = function(){
+                    $("#syn_div").html(data.info.syn_str);
+                    setTimeout(function(){
+                        location.href = data.info.link;
+                    }, data.info.wait);
+                }
+                ds_confirm(content,yesText,noText,onyes,onno,onhide);
+            }else if(typeof data.status == 'string' && data.status == 'advised_active_email'){
+                var failureBox = $(".failureBox");
+                failureBox.removeClass('hide');
+                failureBox.find('.hint').addClass('hide'); 
+                failureBox.find('.loading').removeClass('hide');
+                var url = data.info.emailActiveUrl;
+                location.href = url; 
+            }else if(typeof data.status == 'string' && data.status == 'must_alter_pwd'){
+                var failureBox = $(".failureBox");
+                failureBox.removeClass('hide');
+                failureBox.find('.hint').addClass('hide'); 
+                failureBox.find('.loading').removeClass('hide');
+                
+                var content = data.info.tip_info;
+                var yesText = "立即修改密码";
+                var url = data.info.alterPwdUrl;
+                var noText='';
+                var onyes=onhide = function(){
+                    location.href = url; 
+                    return false;
+                }
+                var onno = false;
+                ds_confirm(content,yesText,noText,onyes,onno,onhide);
+            }else if(typeof data.status == 'string' && data.status == 'advised_set_saft_info'){
+                displaySecurity_1_tmpl();
+            }else if(status === 'expired'){
+                //toogleQR();
+                var failureBox = $(".failureBox");
+                failureBox.removeClass('hide').find('.hint').removeClass('hide');
+                failureBox.find('.loading').addClass('hide');
+            }
+        }
+        
+        function loopCheckQRLogin(){
+            if(!keepRunning){
+                return;
+            }
+            
+            qrLoopStamp = +new Date();
+
+            if(qrScript){
+                var callbackId = qrScript.getAttribute('data-callback-id');
+                window[callbackId] = function(){
+                    delete window[callbackId];
+                };
+                qrScript.parentNode.removeChild(qrScript);
+            }
+
+            var rememberMe = 0; 
+            var rememberMeObj = $("#qr_code").find('input[name=rememberMe]');
+            if(rememberMeObj.attr("checked")){
+                rememberMe = 1;
+            }
+            qrScript = ds.getJSON(qrLoginCheckUrl+"&qrId="+qrId+"&rememberMe="+rememberMe, function(data){
+                CheckQRLoginComplete(data);
+                var status = data ? data.status : null;
+                if (data.status=='error') {
+                    var now = +new Date();
+                    clearTimeout(qrTimer);
+                    //console.log(now,qrLoopStamp,now - qrLoopStamp,qrCheckMinDelay,now - qrLoopStamp < qrCheckMinDelay ? qrCheckMinDelay : 0);
+                    qrTimer = setTimeout(loopCheckQRLogin, now - qrLoopStamp < qrCheckMinDelay ? qrCheckMinDelay : 0);
+                }
+            });
+
+            //clearTimeout(qrTimer);
+            //qrTimer = setTimeout(loopCheckQRLogin, qrCheckTimeout);
+        }
+        //toogleQR();
+        //loopCheckQRLogin();
+    });
+    
+    jQuery(function($){
+        var xhr;
+        $('#check_code').bind('keyup',function(e){
+            if(xhr){
+                xhr.abort();
+            }
+            var code = $(this).val();
+            if(code=="" && code.length<4){
+                $("#check_code_ico").hide();
+                return;
+            }
+            xhr = $.ajax({
+                type:'post',
+                url: '/index.php?r=pwd/validateCode',
+                data:{"check_code":code},
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    xhr = null;
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        $("#check_code_ico").removeClass('error_input_icon').addClass('right_input_icon').show();
+                    }else{
+                        $("#check_code_ico").removeClass('right_input_icon').addClass('error_input_icon').show();
+                    }
+                },
+                error:function(){
+                }
+             });
+        });
+    });
+    
+    jQuery(function($){
+        $('#password').focus();
+        $('#username').focus();
+    });
+    </script>
+    
+
+<!--用户提示-->
+<textarea id="security_1_tmpl" class="tmpl" style="display:none">
+<div class="security_upBox">
+    <div class="user_prompts">
+        <div class="label_card">
+            <div class="coninner">
+                <div class="header_img">
+                    <img src="<%=userInfo.avatar%>" height="137" width="137" />
+                    <i class="mask"></i>
+                </div>
+                <p>UID：<span><%=userInfo.uid%></span></p>
+                <p><b class="name"><%=userInfo.username%></b></p>
+                <p>年龄：<span><%=userInfo.fengbirthday%></span></p>
+            </div>
+        </div>
+
+        <div class="score_num">
+            <div class="ten">
+                <ul></ul>
+                <span class="rel_num"><%=userInfo.saftScore%></span>
+            </div>
+            <div class="end">0</div>
+            <div class="fen">分</div>
+        </div>
+        
+        <div class="hint">亲爱的锋友，<span><%=userInfo.registerDateStr%></span>在威锋出生，现已过去<%=userInfo.viaDateStr%>，你的帐户一直处于非安全状态。花几分钟的时间保护你的威锋帐户，提高帐户安全系数吧。</div>
+        <p><a href="javascript:displaySecurity_2_tmpl();" class="commonBtn">提高账户安全</a></p>
+        <p class="jumpBtn"><a href="javascript:;" name='saft_info_jump' data-flag='tip'>跳过</a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+    </div>
+</div>
+</textarea>
+
+<!--设置安全提问-->
+<textarea id="security_2_tmpl" class="tmpl" style="display:none">
+<div class="security_upBox scroll_box">
+    <div class="security_question">
+    <form action='index.php?r=saft/bindSaftQSetSaftQProcess' method="post" id="set_saft_form">
+        <input type='hidden' name='nextItem' id='nextItem' value='<%=nextItem%>'>
+        <div class="fCode_usestyle fCode_usestyle_next">
+            <ul>
+                <li><h1 style="color:#0096ff; font-size:24px; font-weight:400; border-bottom:0; text-align:center;">设置安全提问</h1></li>
+                <li>
+                    <div class="labcon">
+                        <label class="name_gray">问题一</label>
+                        <div class="select_panel">
+                            <select name="safeQ1" id="safeQ1">
+                                <% for(var item,i=0,len=qItems[0].length; i<len&&(item=qItems[0][i]); i++){ %>
+                                    <option value="<%=item%>"><%=item%></option>
+                                <% } %>
+                            </select>
+                        </div>
+                    </div>
+                </li>
+                <li class="hide hidepro"><div class="labcon"><label class="name_gray">问题</label><input type="text" class="common_inputbox" value="" name="safeQ1_diy" id="safeQ1_diy"></div></li>
+                <li>
+                    <div class="labcon">
+                        <label class="analog_tag" >答案</label>
+                        <input type="text" class="common_inputbox" name="safeA1" id="safeA1"/>
+                        <a class="input_empty" href="javascript:;" title="清空">清空</a>    
+                    </div>
+                </li>
+
+                <li>
+                    <div class="labcon">
+                        <label class="name_gray">问题二</label>
+                        <div class="select_panel">
+                            <select name="safeQ2" id="safeQ2">
+                                <% for(var item,i=0,len=qItems[1].length; i<len&&(item=qItems[1][i]); i++){ %>
+                                    <option value="<%=item%>"><%=item%></option>
+                                <% } %>
+                            </select>
+                        </div>
+                    </div>
+                </li>
+                <li class="hide hidepro"><div class="labcon"><label class="name_gray">问题</label><input type="text" class="common_inputbox" value="" name="safeQ2_diy" id="safeQ2_diy"></div></li>
+                <li>
+                    <div class="labcon">
+                        <label class="analog_tag" >答案</label>
+                        <input type="text" class="common_inputbox" name="safeA2" id="safeA2" />
+                        <a class="input_empty" href="javascript:;" title="清空">清空</a>    
+                    </div>
+                </li>
+
+                <li>
+                    <div class="labcon">
+                        <label class="name_gray">问题三</label>
+                        <div class="select_panel">
+                            <select name="safeQ3" id="safeQ3">
+                                <% for(var item,i=0,len=qItems[2].length; i<len&&(item=qItems[2][i]); i++){ %>
+                                    <option value="<%=item%>"><%=item%></option>
+                                <% } %>
+                            </select>
+                        </div>
+                    </div>
+                </li>
+                <li class="hide hidepro"><div class="labcon"><label class="name_gray">问题</label><input type="text" class="common_inputbox" value="" name="safeQ3_diy" id="safeQ3_diy"></div></li>
+                <li>
+                    <div class="labcon">
+                        <label class="analog_tag" >答案</label>
+                        <input type="text" class="common_inputbox" name="safeA3" id="safeA3" />
+                        <a class="input_empty" href="javascript:;" title="清空">清空</a>    
+                    </div>
+                </li>
+
+                <li>
+                    <p>
+                        <a href="javascript:submitSaft();" class="commonBtn">确定</a>
+                        <span class="big_mask"><i class="loading_icon"></i></span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </form> 
+        <div class="score_num">
+            <div class="ten">
+                <ul></ul>
+                <span class="rel_num"><%=userInfo.saftScore%></span>
+            </div>
+            <div class="end">0</div>
+            <div class="fen">分</div>
+        </div>
+    </div>
+</div>
+</textarea>
+
+<!--设置邮箱-->
+<textarea id="security_3_tmpl" class="tmpl" style="display:none">
+    <div class="security_upBox">
+        <div class="binding_email">
+            <div class="fCode_usestyle">
+            <form action='index.php?r=site/alterEmailProcess' method="post" id="bind_email_set_form">
+                <input type='hidden' name='nextItem' id='nextItem' value='<%=nextItem%>'>
+               <ul>
+                 <li><h1>绑定新邮箱</h1></li>
+                  <li>
+                    <div class="labcon"><input type="text" placeholder="新邮箱" class="common_inputbox" name="b_email" id="b_email" value="<%=userInfo.email%>"></div>
+                    <p class="hint hide">效验码已发送到您的邮箱 <s class="cue_point"></s></p>
+                 </li>
+                <li><div class="txt txt_noicon txt_code labcon"><input type="text" name="emailToken" id="emailToken" class="common_inputbox inputbox_code"><span class="code_ext"><a href="javascript:;" class="btn get_code"><span>获取验证码</span></a><span class="counter hide"><em>00</em>重新发送</span><i class="hide" id="emailToken_status"></i></span></div></li>
+                <li>
+                    <p>
+                        <a href="javascript:submitEmail();" class="commonBtn">确定</a>
+                        <span class="big_mask"><i class="loading_icon"></i></span>
+                    </p>
+                    <p class="jumpBtn"><a href="javascript:;" name='saft_info_jump' data-flag='<%=nextItem%>'>跳过</a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+                </li>
+               </ul>
+            </form>
+            </div>
+            
+            <div class="score_num">
+                <div class="ten">
+                    <ul></ul>
+                    <span class="rel_num"><%=userInfo.saftScore%></span>
+                </div>
+                <div class="end">0</div>
+                <div class="fen">分</div>
+            </div>
+        </div>
+    </div>
+</textarea>
+
+<!--绑定手机-->
+<textarea id="security_4_tmpl" class="tmpl" style="display:none">
+    <div class="security_upBox">
+        <div class="binding_email">
+        <form action='index.php?r=saft/bindPhoneSetPhoneProcess' method="post" id="bind_phone_set_form">
+            <input type='hidden' name='nextItem' id='nextItem' value='<%=nextItem%>'>
+            <div class="fCode_usestyle">
+               <ul>
+                 <li><h1>绑定手机</h1></li>
+                  <li>
+                    <div class="labcon"><input type="text" placeholder="输入手机号码（暂时仅支持中国地区）" class="common_inputbox" name="bindphonenumber" id="bindphonenumber"></div>
+                    <p class="hint">验证码会以短信的形式发送到您的手机</p>
+                 </li>
+                <li><div class="txt txt_noicon txt_code labcon"><input type="text" name="mobilephoneToken" id="mobilephoneToken" maxlength="6" class="common_inputbox inputbox_code"><span class="code_ext"><a href="javascript:;" class="btn get_code"><span>免费获取校验码</span></a><span class="counter hide"><em>00</em>重新发送</span><i class="hide" id="mobile_code_status"></i></span></div></li>
+                <li>
+                    <p>
+                        <a href="javascript:submitPhone();" class="commonBtn">确定</a>
+                        <span class="big_mask"><i class="loading_icon"></i></span>
+                    </p>
+                    <p class="jumpBtn"><a href="javascript:;" name='saft_info_jump' data-flag='<%=nextItem%>'>跳过</a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+                </li>
+               </ul>
+            </div>
+        </form>
+            <div class="score_num">
+                <div class="ten">
+                    <ul></ul>
+                    <span class="rel_num"><%=userInfo.saftScore%></span>
+                </div>
+                <div class="end">0</div>
+                <div class="fen">分</div>
+            </div>
+        </div>
+    </div>
+</textarea>
+
+<!--设置支付密码-->
+<textarea id="security_5_tmpl" class="tmpl" style="display:none">
+    <div class="security_upBox">
+        <div class="set_paypassword">
+            <div class="fCode_usestyle">
+            <form action='index.php?r=pwd/findPayPwdResetProcess' method="post" id="find_pwd_set_form">
+                <input type='hidden' name='nextItem' id='nextItem' value='<%=nextItem%>'>
+               <ul>
+                    <li><h1>设置支付密码</h1></li>
+                    <li><h2>现在开始设置支付密码，保护您的帐户余额、威游币，为您的安全支付保驾护航 。</h2></li>
+                    <li>
+                        <div class="labcon">
+                            <label class="analog_tag" >支付密码</label>
+                            <input type='password' value="" class="common_inputbox" name="newPassword" id="newPassword" maxLength=20 autocomplete="off" oncopy="return false" onpaste="return false">
+                            <a class="input_empty" href="javascript:;" title="清空">清空</a>    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="labcon">
+                            <label class="analog_tag" >确认支付密码</label>
+                            <input type='password' value="" class="common_inputbox" name="newPassword2" id="newPassword2" maxLength=20 autocomplete="off" oncopy="return false" onpaste="return false">
+                            <a class="input_empty" href="javascript:;" title="清空">清空</a>    
+                        </div>
+                    </li>
+                <li>
+                    <p>
+                        <a href="javascript:submitPayPwd();" class="commonBtn">确定</a>
+                        <span class="big_mask"><i class="loading_icon"></i></span>
+                    </p>
+                    <p class="jumpBtn"><a href="javascript:;" name='saft_info_jump' data-flag='<%=nextItem%>'>跳过</a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+                </li>
+               </ul>
+            </form>
+            </div>
+            
+            <div class="score_num">
+                <div class="ten">
+                    <ul></ul>
+                    <span class="rel_num"><%=userInfo.saftScore%></span>
+                </div>
+                <div class="end">0</div>
+                <div class="fen">分</div>
+            </div>
+        </div>
+    </div>
+</textarea>
+
+<!--威锋密保-->
+<textarea id="security_6_tmpl" class="tmpl" style="display:none">
+    <div class="security_upBox">
+        <div class="set_wekey">
+            <input type='hidden' name='nextItem' id='nextItem' value='<%=nextItem%>'>
+            <h1>
+                <p>想体验二维码一键扫描的快捷吗？</p>
+                <p>现在使用威锋密保来保护你的的帐户吧。</p>
+            </h1>
+            <div class="download">
+                <div class="download_way">
+                    <span class="tel_icon ios"></span>
+                    <p class="telName">Ios</p>
+                    <a href="<%=wekeyIosUrl%>" target="_blank" class="download_btn"><i class="ios"></i>苹果版下载</a>
+                    <span class="code_img"><img src="<%=wekeyIosQrUrl%>" height="100" width="100" alt="" /></span>
+                </div>
+                
+                <div class="download_way mid_space">
+                    <span class="tel_icon android"></span>
+                    <p class="telName">Android</p>
+                    <a href="<%=wekeyAndroidUrl%>" target="_blank" class="download_btn"><i class="android"></i>安卓版下载</a>
+                    <span class="code_img"><img src="<%=wekeyAndroidQrUrl%>" height="100" width="100" alt="" /></span>
+                </div>
+                
+                <div class="download_way">
+                    <span class="tel_icon wp8"></span>
+                    <p class="telName">WindowsPhone</p>
+                    <a href="<%=wekeyWPUrl%>" target="_blank" class="download_btn"><i class="wp8"></i>Wp8版下载</a>
+                    <span class="code_img"><img src="<%=wekeyWPQrUrl%>" height="100" width="100" alt="" /></span>
+                </div>
+            </div>
+            <div class="tel_numbox">
+                <div class="labcon"><input type="text" value="" placeholder="输入手机号码（暂时仅支持中国地区）" class="common_inputbox" name="bindphonenumber" id="bindphonenumber"></div>
+                <p class="hint">下载链接会以短信的形式发送到您的手机</p>
+            </div>
+            <p>
+                <a href="javascript:submitWekey();" class="commonBtn">确定</a>
+                <span class="big_mask"><i class="loading_icon"></i></span>
+            </p>
+            <p class="jumpBtn"><a href="javascript:;" name='saft_info_jump' data-flag='<%=nextItem%>'>跳过</a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+        </div>
+    </div>
+</textarea>
+
+<textarea id="security_7_tmpl" class="tmpl" style="display:none">
+    <div class="security_upBox">
+        <div class="complete_box">
+            <% if (userInfo.saftScore>=8){ %>
+            <h1>非常不错，您的帐户已经获得<span class="full_point <% if (userInfo.saftScore<10){ %>hide<% } %>">分</span></h1>
+            <% }else if(userInfo.saftScore>=5){ %>
+            <h1>您的帐户已经获得<span class="full_point hide">分</span></h1>
+            <% }else if(userInfo.saftScore<5){ %>
+            <h1>您的帐户仅获得<span class="full_point hide">分</span></h1>
+            <% } %>
+            <h2>已激活安全选项</h2>
+            <ul>
+                <li class="<%if(userInfo.emailActive==1){%>activate<%}else{%>prompt<%}%>"><i></i>邮箱已验证<%if(userInfo.emailActive==1){%><span class="other">（<%=userInfo.email_after_interference%>）</span><%}%></li>
+                <li class="<%if(userInfo.saftActive==1){%>activate<%}else{%>prompt<%}%>"><i></i>安全提问已设置</li>
+                <li class="<%if(userInfo.mobileActive==1){%>activate<%}else{%>prompt<%}%>"><i></i>手机已绑定<%if(userInfo.mobileActive==1){%> <span class="other">（<%=userInfo.bindphonenumber_after_interference%>）</span> <%}%></li>
+                <li class="<%if(userInfo.payPwdActive==1){%>activate<%}else{%>prompt<%}%>"><i></i>支付密码已设置</li>
+                <li class="<%if(userInfo.wekeyActive==1){%>activate<%}else{%>prompt<%}%>"><i></i>威锋密保已绑定</li>
+            </ul>
+            <% if (appid>1){ %>
+                <p><a href="javascript:;" class="commonBtn" name='saft_info_jump' data-flag='tip'>跳转至<%=appname%></a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+                <p class="jumpBtn"><a href="javascript:jump_current_item('passport',this);"  >进入我的账户中心</a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+            <% }else{ %>
+                <p><a href="javascript:jump_current_item('passport',this);" class="commonBtn" >跳转至<%=appname%></a><span class="hide"><img src="images/loading_m.gif" height="28" width="28" /></span></p>
+            <% } %>
+            <% if (userInfo.saftScore<10){ %>
+            <div class="score_num">
+                <div class="ten">
+                    <ul></ul>
+                    <span class="rel_num"><%=userInfo.saftScore%></span>
+                </div>
+                <div class="end">0</div>
+                <div class="fen">分</div>
+            </div>
+            <% } %>
+        </div>
+    </div>
+</textarea>
+<script type="text/javascript">
+    function jump_current_item(code,obj){
+        $.hideAllErrorTips();
+        $(obj).next('span').removeClass('hide');
+        $(obj).hide();
+        if(code=='tip'){
+            doJump();
+        }else if(code=='saft'){
+            displaySecurity_3_tmpl();
+        }else if(code=='email'){
+            displaySecurity_3_tmpl();
+        }else if(code=='phone'){
+            displaySecurity_4_tmpl();
+        }else if(code=='pay_pwd'){
+            displaySecurity_5_tmpl();
+        }else if(code=='wekey'){
+            displaySecurity_6_tmpl();
+        }else if(code=='complete'){
+            displaySecurity_7_tmpl();
+        }else if(code=='passport'){
+            location.href='index.php?r=site/index';
+        }
+    }
+
+    function displaySecurity_1_tmpl(){
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft1",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_1_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    buildScore();
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    //设置安全问题
+    function displaySecurity_2_tmpl(){
+        showBtnLoading();
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft2",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                hideBtnLoading();
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_2_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    //console.log(html);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    buildScore();
+                    $('.select_panel').find('select').bind('change', function(){
+                        var val = this.options[this.selectedIndex].value;
+                    })
+                    .renderSelect();
+                    initSaft();
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                    
+                    rebindEvent();
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                hideBtnLoading();
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    //设置邮箱
+    function displaySecurity_3_tmpl(){
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft3",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_3_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    //console.log(html);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    buildScore();
+                    initEmail(data.info.getEmailTokenUrl,data.info.keyTimeOut);
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    //绑定手机
+    function displaySecurity_4_tmpl(){
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft4",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_4_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    //console.log(html);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    buildScore();
+                    initPhone(data.info.phoneGetCodeUrl,data.info.messageType,data.info.phoneKeyTimeOut);
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    //设置支付密码
+    function displaySecurity_5_tmpl(){
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft5",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_5_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    //console.log(html);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    buildScore();
+                    initPayPwd();
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                    rebindEvent();
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    //设置绑定密保
+    function displaySecurity_6_tmpl(){
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft6",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_6_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    $(".set_wekey .download .download_way").each(function(){
+                        $(this).find(".tel_icon").hover(function(){
+                            $(this).siblings(".code_img").stop().animate({"top":0,"opacity":1},400);
+                            $(".code_img").mouseover(function(){
+                                $(this).stop().animate({"top":0,"opacity":1},400);
+                            });
+                            $(".code_img").mouseout(function(){
+                                $(this).stop().animate({"top":-100,"opacity":0},400);
+                            });
+                        },function(){
+                            $(this).siblings(".code_img").stop().animate({"top":-100,"opacity":0},400);
+                        });
+                    });
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    function displaySecurity_7_tmpl(){
+        var ajaxData = {};
+        $.ajax({
+            type:'post',
+            url: "index.php?r=site/InproveSaft7",
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    var tmpl = $('#security_7_tmpl').val();
+                    var html = ds.tmpl(tmpl, data.info);
+                    //console.log(html);
+                    var onhide = function(){doJump();this.close();};
+                    ds_confirm(html,'','',false,false,onhide);
+                    buildScore();
+                    $('.security_upBox').delegate('a[name=saft_info_jump]','click',function(e){
+                        e.preventDefault();
+                        jump_current_item($(this).attr("data-flag"),this);
+                    });
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }
+                else{
+                    ds.dialog.alert(data.info.info);
+                }
+            },
+            error:function(){
+                ds.dialog.alert("服务器繁忙，请稍候！");
+            }
+         });
+    }
+    
+    function submitSaft(){
+        $('#set_saft_form').submit();
+    }
+    function initSaft(){
+        var form = $('#set_saft_form');
+        form.bind('submit', function(e){
+            e.preventDefault();
+            var errField;
+            var fields = [$('#safeA1'),$('#safeA2'),$('#safeA3')];
+            for(var i=0;i<fields.length;i++){
+                errField = fields[i];
+                if(errField.val() == ''){
+                    errField.focus();
+                    errField.showErrorTips(errField.parent().find('.analog_tag').html() + ' 不能为空');
+                    return;
+                }
+            };
+            showBtnLoading();
+            $.ajax({
+                type:'post',
+                url: form.attr("action"),
+                data:form.serialize(),
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        jump_current_item($('#nextItem').val(),this);
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        hideBtnLoading();
+                        var status = data ? data.status : null;
+                        var errItems = data.info;
+                        errField = $("#"+errItems.item);
+                        errField.showErrorTips(errItems.info);
+                    }
+                },
+                error:function(){
+                    hideBtnLoading();
+                }
+             });
+        });
+    }
+    
+    function submitEmail(){
+        $('#bind_email_set_form').submit();
+    }
+    
+    function initEmail(getEmailTokenUrl,keyTimeOut){
+        
+        $('#bind_email_set_form').baseFormHandle();
+        var countTimer, form = $('#bind_email_set_form');
+        
+        var mobileErrorStatus = $('#emailToken_status')[0];
+        function showCodeError(msg){
+            mobileErrorStatus.title = msg || '验证码错误';
+            mobileErrorStatus.className = 'error';
+        }
+
+        function hideCodeError(){
+            mobileErrorStatus.className = 'ok';
+            mobileErrorStatus.title = '';
+        }
+        
+        //获取验证码
+        var countTimer, countCircle, countdowning = false;
+        form.find('a.get_code').bind('click', function(e){
+            e.preventDefault();
+            if(countdowning){ return; }
+            
+            var errField;
+            var fields = [$('#b_email')];
+            for(var i=0;i<fields.length;i++){
+                errField = fields[i];
+                if(errField.val() == ''){
+                    errField.showErrorTips(errField.attr('placeholder') + ' 不能为空');
+                    return;
+                }
+            };
+            
+            var ajaxData = {"b_email":$('#b_email').val()};
+            $.ajax({
+                type:'post',
+                url: getEmailTokenUrl,
+                data:ajaxData,
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        if(data.info.item=='email'){
+                            data.info.item = 'b_email';
+                        }
+                        var field = $('#'+data.info.item);
+                        field.showErrorTips(data.info.info);
+
+                        ds.stopTimeout(countTimer);
+                        restoreCount();
+                    }
+                },
+                error:function(){
+                }
+             });
+            
+            var 
+            delay = parseInt(keyTimeOut),
+            
+            self = $(this).addClass('hide'),
+            counter = self.parent().find('.counter em');
+            counter.parent().removeClass('hide');
+
+            if(!countCircle){
+                countCircle = new Circle({
+                    container: counter.parent()[0],
+                    fillColor: '#B4B4B4',
+                    lineWidth: 2,
+                    size: 38
+                });
+            }
+            countCircle.update(0, false);
+            counter.html(delay);
+
+            countdowning = true;
+            ds.stopTimeout(countTimer);
+            countTimer = ds.startTimeout(delay*1000, function(queue, c){
+                if(c % 4 === 0){
+                    var s = parseInt(queue.remaining/1000, 10), val = 1 - s/delay;
+                    counter.html(('00'+s).slice(-2));
+                    countCircle.update(val);
+                }
+            }, restoreCount);
+            
+            function restoreCount(){
+
+                counter.parent().addClass('hide');
+                self.removeClass('hide');
+                
+                countdowning = false;
+            }
+
+
+            $('#emailToken').focus();
+
+        });
+        
+        form.bind('submit', function(e){
+            e.preventDefault();
+            
+            var errField;
+            var fields = [$('#b_email')];
+            for(var i=0;i<fields.length;i++){
+                errField = fields[i];
+                if(errField.val() == ''){
+                    errField.showErrorTips(errField.attr('placeholder') + ' 不能为空');
+                    return;
+                }
+            };
+            
+            var codeField = $('#emailToken');
+            if(codeField.val() == ''){
+                //showCodeError();
+                return codeField.showErrorTips('验证码不能为空！');
+            }
+
+            showBtnLoading();
+            
+            $.ajax({
+                type:'post',
+                url: form.attr("action"),
+                data:form.serialize(),
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        jump_current_item($('#nextItem').val(),this);
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        hideBtnLoading();
+                        var status = data ? data.status : null;
+                        var errItems = data.info;
+                        if(errItems.item=='email'){
+                            errItems.item = 'b_email';
+                        }
+                        errField = $("#"+errItems.item);
+                        errField.showErrorTips(errItems.info);
+                    }
+                },
+                error:function(){
+                    hideBtnLoading();
+                }
+             });
+        });
+    }
+    
+    function submitPhone(){
+        $('#bind_phone_set_form').submit();
+    }
+    function initPhone(phoneGetCodeUrl,messageType,phoneKeyTimeOut){
+        $('#bind_phone_set_form').baseFormHandle();
+        var countTimer, form = $('#bind_phone_set_form');
+        
+        var mobileErrorStatus = $('#mobile_code_status')[0];
+        function showCodeError(msg){
+            mobileErrorStatus.title = msg || '验证码错误';
+            mobileErrorStatus.className = 'error';
+        }
+        
+        function showCodeRight(){
+            mobileErrorStatus.className = 'ok';
+            mobileErrorStatus.title = '';
+        }
+
+        function hideCodeError(){
+            mobileErrorStatus.className = 'hide';
+            mobileErrorStatus.title = '';
+        }
+        
+        //获取验证码
+        var countTimer, countCircle, countdowning = false;
+        form.find('a.get_code').bind('click', function(e){
+            e.preventDefault();
+            if(countdowning){ return; }
+            
+            var errField = $('#bindphonenumber');
+            if(errField.val() == ''){
+                errField.showErrorTips('手机号码 不能为空');
+                return;
+            }
+            
+            var ajaxData = {"bindphonenumber":$('#bindphonenumber').val(),'messageType':messageType};
+            $.ajax({
+                type:'post',
+                url: phoneGetCodeUrl,
+                data:ajaxData,
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        var field = $('#'+data.info.item);
+                        field.showErrorTips(data.info.info);
+
+                        ds.stopTimeout(countTimer);
+                        restoreCount();
+                    }
+                },
+                error:function(){
+                }
+             });
+            
+            var 
+            delay = parseInt(phoneKeyTimeOut),
+            
+            self = $(this).addClass('hide'),
+            counter = self.parent().find('.counter em');
+            counter.parent().removeClass('hide');
+
+            if(!countCircle){
+                countCircle = new Circle({
+                    container: counter.parent()[0],
+                    fillColor: '#B4B4B4',
+                    lineWidth: 2,
+                    size: 38
+                });
+            }
+            countCircle.update(0, false);
+            counter.html(delay);
+
+            countdowning = true;
+            ds.stopTimeout(countTimer);
+            countTimer = ds.startTimeout(delay*1000, function(queue, c){
+                if(c % 4 === 0){
+                    var s = parseInt(queue.remaining/1000, 10), val = 1 - s/delay;
+                    counter.html(('00'+s).slice(-2));
+                    countCircle.update(val);
+                }
+            }, restoreCount);
+            
+            function restoreCount(){
+
+                counter.parent().addClass('hide');
+                self.removeClass('hide');
+                
+                countdowning = false;
+            }
+
+
+            $('#mobilephoneToken').focus();
+
+        });
+
+        form.bind('submit', function(e){
+            e.preventDefault();
+            
+            var errField = $('#bindphonenumber');
+            if(errField.val() == ''){
+                errField.showErrorTips('手机号码 不能为空');
+                return;
+            }
+            
+            var codeField = $('#mobilephoneToken');
+            if(codeField.val() == ''){
+                //showCodeError();
+                return codeField.showErrorTips('验证码不能为空！');
+            }
+
+            showBtnLoading();
+            
+            $.ajax({
+                type:'post',
+                url: form.attr("action"),
+                data:form.serialize(),
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        jump_current_item($('#nextItem').val(),this);
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        hideBtnLoading();
+                        var status = data ? data.status : null;
+                        var errItems = data.info;
+                        errField = $("#"+errItems.item);
+                        errField.showErrorTips(errItems.info);
+                    }
+                },
+                error:function(){
+                    hideBtnLoading();
+                }
+             });
+        });
+        
+        var xhr;
+        $('#mobilephoneToken').bind('keyup',function(e){
+            if(xhr){
+                xhr.abort();
+            }
+            var code = $(this).val();
+            if(code==""){
+                hideCodeError();
+                return;
+            }
+            if(code.length!=6){
+                showCodeError();
+                return;
+            }
+            xhr = $.ajax({
+                type:'post',
+                url: '/index.php?r=saft/ValidatePhoneCode',
+                data:{"mobilephoneToken":code,"bindphonenumber":$('#bindphonenumber').val()},
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    xhr = null;
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        showCodeRight();
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        showCodeError();
+                    }
+                },
+                error:function(){
+                }
+             });
+        });
+    }
+    
+    function submitPayPwd(){
+        $('#find_pwd_set_form').submit();
+    }
+    function initPayPwd(){
+        var form = $('#find_pwd_set_form');
+        form.bind('submit', function(e){
+            e.preventDefault();
+            $.hideAllErrorTips();
+            var errField;
+            var fields = [$('#newPassword'),$('#newPassword2')];
+            for(var i=0;i<fields.length;i++){
+                errField = fields[i];
+                if(errField.val() == ''){
+                    errField.showErrorTips(errField.parent().find('.analog_tag').html() + ' 不能为空');
+                    return;
+                }
+            };
+            
+            showBtnLoading();
+            $.ajax({
+                type:'post',
+                url: form.attr("action"),
+                data:form.serialize(),
+                dataType:"json",
+                cache: false,
+                async: true,
+                success: function(data){
+                    if(typeof data.status == 'string' && data.status == 'success'){
+                        jump_current_item($('#nextItem').val(),this);
+                    }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                    }else{
+                        hideBtnLoading();
+                        var status = data ? data.status : null;
+                        var errItems = data.info;
+                        errField = $("#"+errItems.item);
+                        errField.showErrorTips(errItems.info);
+                    }
+                },
+                error:function(){
+                    hideBtnLoading();
+                }
+             });
+        });
+    }
+    
+    function submitWekey(){
+        showBtnLoading();
+        var ajaxData = {'phonenumber':$("#bindphonenumber").val()};
+        $.ajax({
+            type:'post',
+            url: 'index.php?r=site/sendWekeyUrl',
+            data:ajaxData,
+            dataType:"json",
+            cache: false,
+            async: true,
+            success: function(data){
+                if(typeof data.status == 'string' && data.status == 'success'){
+                    jump_current_item($('#nextItem').val(),this);
+                }else if(data && data.status === 'need_login'){
+                        ds.dialog.alert('登录已失效，需重新登录',function(){window.location = "index.php?r=user/login";});
+                }else{
+                    hideBtnLoading();
+                    var status = data ? data.status : null;
+                    var errItems = data.info;
+                    errField = $("#"+errItems.item);
+                    errField.showErrorTips(errItems.info);
+                }
+            },
+            error:function(){
+                hideBtnLoading();
+            }
+         });
+    }
+    
+    function buildScore(){
+        var num_value=$(".score_num").find(".rel_num").text();
+        var ul=$(".security_upBox .score_num .ten ul").eq(0);
+        if(num_value>0){
+            ul.stop().animate({"top": "-" + (78 * (num_value - 1 ))},500,"easeOutBack");
+        }else{
+            ul.hide();
+        }
+    }
+    
+    function rebindEvent(){
+        $('.fCode_usestyle .labcon').delegate('input','focus',function(){
+            var labconValue=$('.fCode_usestyle .labcon').text();
+            $(this).prev('label.analog_tag').hide();
+            $(this).keyup(function(){
+                $(this).siblings('a.input_empty').show();
+            });
+        });
+        $('.fCode_usestyle .labcon').delegate('input','blur',function(){    
+            $(this).siblings('a.input_empty').hide(200);            
+            if($(this).val()==''){
+                $(this).prev('label.analog_tag').show();
+            }else{
+                $(this).prev('label.analog_tag').hide();        
+            }
+        }); 
+        $('.fCode_usestyle .labcon').delegate('a.input_empty','click',function(){
+            $(this).hide();
+            $(this).parent('.labcon').find('input').val('');
+            $(this).parent('.labcon').find('label.analog_tag').show();
+        });
+    }
+</script>
+<div style="display:none" id="syn_div">
+</div>
+</body>
+</html>
+INFO >>> Login() === :请到conf/checkcode.jpeg,打开验证码图片
+{"status":"need_checkcode","info":{"item":"password","info":"\u8d26\u53f7\u4fe1\u606f\u4e0d\u80fd\u4e3a\u7a7a"}}
+
